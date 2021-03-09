@@ -3,7 +3,7 @@ package structure
 import "testing"
 
 func TestAdapter(t *testing.T) {
-	client := &Client{}
+	client := &client{}
 	mac := &mac{}
 	client.insertLightningConnectorIntoComputer(mac)
 	w := &windows{}

@@ -2,16 +2,16 @@ package structure
 
 import "fmt"
 
-type Computer interface {
+type computer interface {
 	insertIntoLightningPort()
 }
 
-type Client struct {
+type client struct {
 
 }
 
-func (c *Client)insertLightningConnectorIntoComputer(com Computer)  {
-	fmt.Println("Client inserts Lightning connector into computer.")
+func (c *client)insertLightningConnectorIntoComputer(com computer)  {
+	fmt.Println("client inserts Lightning connector into computer.")
 	com.insertIntoLightningPort()
 }
 
