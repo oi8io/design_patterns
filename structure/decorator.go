@@ -1,5 +1,8 @@
 package structure
 
+/**
+装饰器模式
+ */
 type pizza interface {
 	getPrice() int
 }

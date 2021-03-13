@@ -2,6 +2,9 @@ package structure
 
 import "fmt"
 
+/**
+组合模式
+ */
 type Composite interface {
 	process(space string)
 }

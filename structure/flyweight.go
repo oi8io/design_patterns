@@ -4,6 +4,9 @@ import (
 	"errors"
 )
 
+/**
+享元模式
+ */
 type terroristDress struct { //恐怖服装
 	color string
 }

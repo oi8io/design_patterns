@@ -2,6 +2,9 @@ package structure
 
 import "fmt"
 
+/**
+桥接模式
+ */
 type Os interface {
 	os_print()
 	setPrinter(printer)

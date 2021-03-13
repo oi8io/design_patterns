@@ -5,6 +5,9 @@ import (
 	"fmt"
 )
 
+/**
+外观模式
+ */
 type account struct {
 	name string
 }

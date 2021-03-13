@@ -1,7 +1,9 @@
 package creation
 
 import "fmt"
-
+/**
+原型模式
+ */
 type DirNode interface {
 	print(string)
 	clone() DirNode
